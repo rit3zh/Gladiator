@@ -127,6 +127,9 @@ const googleLogin = async () => {
 
 > [!IMPORTANT]
 
+> [!CAUTION]  
+> The UI is not compatible with expo go app. You have to prebuild your expo app.
+
 ### 5. Set Up ImgBB
 
 - Initialize ImgBB in your project:
