@@ -129,7 +129,7 @@ const googleLogin = async () => {
 
 Initialize ImgBB in your project:
 
-[!IMPORTANT]
+> [!IMPORTANT]
 
 - > Get a free API key from [ImgBB](https://api.imgbb.com/).
 - > [Firestore Documentation](https://firebase.google.com/docs/firestore)
