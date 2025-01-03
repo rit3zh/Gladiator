@@ -125,9 +125,10 @@ const googleLogin = async () => {
 > [Firebase Authentication Documentation](https://firebase.google.com/docs/auth)  
 > [Google Sign-In Setup](https://developers.google.com/identity/sign-in/android/start)
 
+> [!IMPORTANT]
+
 ### 5. Set Up ImgBB
 
-> [!IMPORTANT]
 - Initialize ImgBB in your project:
 
 - > Get a free API key from [ImgBB](https://api.imgbb.com/).
