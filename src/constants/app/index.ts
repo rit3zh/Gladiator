@@ -1,0 +1,13 @@
+export const APP_TITLE: string = `Meet`;
+export const APP_NAME: string = `Gladiator`;
+export const APP_DESCRIPTION: string = `The perfect AI companion for your daily life!`;
+export const GOOGLE_LOGO: string = `https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-1024.png`;
+export const GOOGLE_LOGIN_TEXT: string = "Login with Google";
+export const GOOGLE_SIGNUP_TEXT: string = `Continue with Google`;
+export const ERROR_ALREADY_EXISTS_GOOGLE: string = `The user already exists, consider Sign In using google.`;
+export const UNFORTUNATE_ACCOUNT_CREATION_ERROR: string = `Hmm, something went wrong during account creation. Please try again later.`;
+export const ERROR_ALREADY_EXISTS: string = `The user already exists with this Email ID.`;
+export const DISPLAY_NAME_INITIAL_LENGTH_ERROR: string = `Your display name needs to be at-least 4 or more characters long.`;
+export const ACCOUNT_NOT_LINKED: string = `Your account is not linked with Google.`;
+export const APP_COLOR: string = `#c5fae5`;
+export const EMOJI_STORAGE_KEY: string = `RN-EMOJI-KEYBOARD_RECENT`;

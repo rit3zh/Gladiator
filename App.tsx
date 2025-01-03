@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import "./global.css";
+import * as React from "react";
+import {
+  DarkTheme,
+  DefaultTheme,
+  NavigationContainer,
+} from "@react-navigation/native";
 
-export default function App() {
+import { useTheme, useSetupPlayer } from "@/hooks/index";
+import { NavigationFlow } from "@/index";
+
+export default function App<T extends React.ReactNode>(): React.ReactNode &
+  JSX.Element &
+  React.FunctionComponentElement<T> {
+  const { theme } = useTheme();
+  useSetupPlayer();
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer theme={theme === "dark" ? DarkTheme : DefaultTheme}>
+      <NavigationFlow />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
