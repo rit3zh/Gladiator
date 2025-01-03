@@ -127,9 +127,8 @@ const googleLogin = async () => {
 
 ### 5. Set Up ImgBB
 
-Initialize ImgBB in your project:
-
 > [!IMPORTANT]
+- Initialize ImgBB in your project:
 
 - > Get a free API key from [ImgBB](https://api.imgbb.com/).
 - > [Firestore Documentation](https://firebase.google.com/docs/firestore)
